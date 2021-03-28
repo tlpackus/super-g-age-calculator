@@ -1,20 +1,27 @@
-# Template README
+# Super Galactic Age Calculator
+
+#### This application will show the users age based off different planets calendars.
 
 
-# (Application Name)
-
-#### (Brief Description of Application)
-
-#### By (Your Name Here)
+#### By Theron Packus
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* VS Code
+* HTML/CSS
+* JavaScript
+* jQuery
+* Bootstrap
+* Webpack
+* Jest
+* Babel
+* eslint
+* Node
+* popper.js
 
 ## Description
+
+_This program takes in a user's age and returns their age on different planets_
 
 ## Setup/Installation Requirements
 
@@ -31,5 +38,13 @@
 
 ## License
 
-## Contact Information
+[MIT](https://)
+
+Copyright © 2021 Theron Packus
+
+All rights Reserved
+
+## Support and Contact Information
+
+For contact support, please email Theron Packus <a href = "mailto: tlpackus@gamil.com">Send Email</a>
 
