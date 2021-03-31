@@ -1,5 +1,5 @@
 import './css/styles.css';
-// import Example from './example.js';
+import Age from './spaceage.js';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
