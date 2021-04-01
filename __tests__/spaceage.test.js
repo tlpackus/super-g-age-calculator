@@ -15,4 +15,10 @@ describe('Age', () => {
     expect(ageObject.ageCalc('mars')).toEqual(12);
     expect(ageObject.ageCalc('jupiter')).toEqual(1);
   })
+  test('should correctly calculate the users life expectancy on varying planets', () => {
+    expect(ageObject.lifeExpectancyCalc('mercury')).toEqual(416);
+    expect(ageObject.lifeExpectancyCalc('venus')).toEqual(161);
+    expect(ageObject.lifeExpectancyCalc('mars')).toEqual(53);
+    expect(ageObject.lifeExpectancyCalc('jupiter')).toEqual(8);
+  })
 });

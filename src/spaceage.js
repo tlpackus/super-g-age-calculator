@@ -17,4 +17,7 @@ export default class Age {
       return Math.floor(this.age/11.86);
     }
   }
+  lifeExpectancyCalc(planet) {
+    
+  }
 }
