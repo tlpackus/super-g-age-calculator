@@ -3,4 +3,7 @@ export default class Age {
     this.age = age;
     this.lifeExpectancy = lifeExpectancy;
   }
+  ageCalc(planet) {
+
+  }
 }
