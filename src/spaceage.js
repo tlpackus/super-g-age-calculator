@@ -31,4 +31,7 @@ export default class Age {
       return Math.floor(this.lifeExpectancy/11.86);
     }
   }
+  leftToLiveCalc(planet) {
+
+  }
 }
