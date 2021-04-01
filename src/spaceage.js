@@ -18,6 +18,17 @@ export default class Age {
     }
   }
   lifeExpectancyCalc(planet) {
-    
+    if (planet==="mercury") {
+      return Math.floor(this.lifeExpectancy/.24);
+    }
+    else if (planet==="venus") {
+      return Math.floor(this.lifeExpectancy/.62);
+    }
+    else if (planet==="mars") {
+      return Math.floor(this.lifeExpectancy/1.88);
+    }
+    else if (planet==="jupiter") {
+      return Math.floor(this.lifeExpectancy/11.86);
+    }
   }
 }
