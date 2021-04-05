@@ -10,21 +10,21 @@ describe('Age', () => {
     expect(ageObject.lifeExpectancy).toEqual(100);
   });
   test('should correctly calculate the users age on varying planets', () => {
-    expect(ageObject.ageCalc('mercury')).toEqual(95);
-    expect(ageObject.ageCalc('venus')).toEqual(37);
-    expect(ageObject.ageCalc('mars')).toEqual(12);
-    expect(ageObject.ageCalc('jupiter')).toEqual(1);
+    expect(ageObject.ageCalc('Mercury')).toEqual(95);
+    expect(ageObject.ageCalc('Venus')).toEqual(37);
+    expect(ageObject.ageCalc('Mars')).toEqual(12);
+    expect(ageObject.ageCalc('Jupiter')).toEqual(1);
   });
   test('should correctly calculate the users life expectancy on varying planets', () => {
-    expect(ageObject.lifeExpectancyCalc('mercury')).toEqual(416);
-    expect(ageObject.lifeExpectancyCalc('venus')).toEqual(161);
-    expect(ageObject.lifeExpectancyCalc('mars')).toEqual(53);
-    expect(ageObject.lifeExpectancyCalc('jupiter')).toEqual(8);
+    expect(ageObject.lifeExpectancyCalc('Mercury')).toEqual(416);
+    expect(ageObject.lifeExpectancyCalc('Venus')).toEqual(161);
+    expect(ageObject.lifeExpectancyCalc('Mars')).toEqual(53);
+    expect(ageObject.lifeExpectancyCalc('Jupiter')).toEqual(8);
   });
   test('should correctly calculate the users years left to live on varying planets and text about it as well', () => {
-    expect(ageObject.leftToLiveCalc('mercury')).toEqual(416);
-    expect(ageObject.leftToLiveCalc('venus')).toEqual(161);
-    expect(ageObject.leftToLiveCalc('mars')).toEqual(53);
-    expect(ageObject.leftToLiveCalc('jupiter')).toEqual(8);
+    expect(ageObject.leftToLiveCalc('Mercury')).toEqual("You have 321 years of life remaining on Mercury");
+    expect(ageObject.leftToLiveCalc('Venus')).toEqual(161);
+    expect(ageObject.leftToLiveCalc('Mars')).toEqual(53);
+    expect(ageObject.leftToLiveCalc('Jupiter')).toEqual(8);
   });
 });
