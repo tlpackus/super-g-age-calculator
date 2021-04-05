@@ -13,7 +13,7 @@ export default class Age {
     else if (planet==="Mars") {
       return Math.floor(this.age/1.88);
     }
-    else if (planet==="Jupiter") {
+    else {
       return Math.floor(this.age/11.86);
     }
   }
@@ -27,19 +27,19 @@ export default class Age {
     else if (planet==="Mars") {
       return Math.floor(this.lifeExpectancy/1.88);
     }
-    else if (planet==="Jupiter") {
+    else {
       return Math.floor(this.lifeExpectancy/11.86);
     }
   }
   leftToLiveCalc(planet) {
     if (this.age < this.lifeExpectancy) {
-      return "You have " + ((Math.floor(this.lifeExpectancy/.24)) - (Math.floor(this.age/.24))) + " years of life remaining on " + `${planet}`;
+      return "You have " + ((Math.floor(this.lifeExpectancyCalc(`${planet}`))) - (Math.floor(this.ageCalc(`${planet}`)))) + " years of life remaining on " + `${planet}`;
     }
-    else if (this.age = this.lifeExpectancy) {
+    else if (this.age === this.lifeExpectancy) {
       return "RIP";
     }
     else {
-      return "You would have died " + ((Math.floor(this.age/.24)) - (Math.floor(this.lifeExpectancy/.24))) + " years ago on Mercury";
+      return "You would have passed " + ((Math.floor(this.ageCalc(`${planet}`))) - (Math.floor(this.lifeExpectancyCalc(`${planet}`)))) + " years ago on " + `${planet}`;
     }
   }
 }
