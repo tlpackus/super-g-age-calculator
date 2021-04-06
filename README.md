@@ -21,7 +21,7 @@
 
 ## Description
 
-_This program takes in a user's age and returns their age on different planets_
+_This program takes in a user's age and life expectancy. Then returns their remaining years on various planets based on that planets calendar_
 
 ## Setup/Installation Requirements
 
