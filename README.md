@@ -63,5 +63,5 @@ All rights Reserved
 
 ## Support and Contact Information
 
-For contact support, please email Theron Packus <a href = "mailto: tlpackus@gamil.com">Send Email</a>
+For contact support, please email me, Theron Packus at tlpackus@gmail.com <a href = "mailto: tlpackus@gamil.com">Send Email</a>
 
