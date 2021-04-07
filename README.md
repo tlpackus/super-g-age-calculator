@@ -41,7 +41,7 @@ _This program takes in a user's age and life expectancy. Then returns their rema
 - Type code . in terminal to open in VSCode
 - Recreate project environment and install required dependencies with terminal command `$ npm install`
 - Create production environment with terminal command `$ npm run build`
--Run tests in Jest with the command `$ npm test`
+- Run tests in Jest with the command `$ npm test`
 
 ## Additional Setup/Installation Note for Windows Users
 
