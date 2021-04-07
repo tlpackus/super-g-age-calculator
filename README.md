@@ -23,13 +23,30 @@
 
 _This program takes in a user's age and life expectancy. Then returns their remaining years on various planets based on that planets calendar_
 
+## Pre Setup Installation Requirements
+
+- Requires Visual Studio Code Installation
+- Requires Terminal Installation
+- Requires Google Chrome
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+- Click Code at the top right of the repository
+- Copy that url
+- Open the terminal on your local machine
+-If [Node.js](https://nodejs.org/en/) and [Nope Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)
+- Navigate to the directory inside of which you wish to house this project
+- Clone the url into that directory using "git clone (paste url from repository)"
+- Change into that cloned directory by entering "cd super-g-age-calculator"
+- Type code . in terminal to open in VSCode
+-Recreate project environment and install required dependencies with terminal command `$ npm install`
+- Create production environment with terminal command `$ npm run build`
+-Run tests in Jest with the command `$ npm test`
+
+## Additional Setup/Installation Note for Windows Users
+
+_This environment was created on a Mac. For it to work properly in your local environment make the following change:_
+* _Update package.json, line 8 to: `"start": "npm run build & webpack-dev-server --open --mode development",`_
 
 ## Known Bugs
 
