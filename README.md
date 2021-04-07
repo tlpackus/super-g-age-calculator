@@ -34,6 +34,7 @@ _This program takes in a user's age and life expectancy. Then returns their rema
 ## Known Bugs
 
 * _This project has no user interface yet so "$ npm run build" will throw "2:8  error  'Age' is defined but never used". This is supposed to occur and the project can still be tested by running the $ npm test command in Terminal_
+* _If you happen to run into any bugs or issues please email them to my email below and I'll get them fixed as soon as possible_
 
 ## License
 
