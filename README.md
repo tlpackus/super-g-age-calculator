@@ -39,7 +39,7 @@ _This program takes in a user's age and life expectancy. Then returns their rema
 - Clone the url into that directory using "git clone (paste url from repository)"
 - Change into that cloned directory by entering "cd super-g-age-calculator"
 - Type code . in terminal to open in VSCode
--Recreate project environment and install required dependencies with terminal command `$ npm install`
+- Recreate project environment and install required dependencies with terminal command `$ npm install`
 - Create production environment with terminal command `$ npm run build`
 -Run tests in Jest with the command `$ npm test`
 
