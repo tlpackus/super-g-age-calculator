@@ -33,12 +33,11 @@ _This program takes in a user's age and life expectancy. Then returns their rema
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _This project has no user interface yet so "$ npm run build" will throw "2:8  error  'Age' is defined but never used". This is supposed to occur and the project can still be tested by running the $ npm test command in Terminal_
 
 ## License
 
-[MIT](https://)
+[MIT](LICENSE.txt)
 
 Copyright © 2021 Theron Packus
 
